@@ -45,7 +45,7 @@ Si el software detecta una excepción nueva, abrirá el canal de entrenamiento. 
 ```text
 <VAR1> = 0.0; <VAR2> = 100; total = <VAR1> + <VAR2>; print(total)
 ```
-MICA memorizará la firma sintáctica e inyectará los nombres de variables correctos de forma automática la próxima vez que ocurra un error similar.
+La ia memorizará la firma sintáctica e inyectará los nombres de variables correctos de forma automática la próxima vez que ocurra un error similar.
 
 ### 4. Telemetría e Historial
 Escribe el comando global `HISTORIAL` en cualquier momento para desplegar la tabla analítica local. Verás el registro exacto de las veces que cada solución fue invocada, confirmada de forma real en background y su **Porcentaje de Efectividad de Reparación**. Para cerrar, usa `SALIR`.
